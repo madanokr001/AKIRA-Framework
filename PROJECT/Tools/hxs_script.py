@@ -46,7 +46,7 @@ def hoaxshell():
 
         if select == "1" or select == "1":
             LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE PORT : ")
+            PORT = input("[+] ENTER THE LPORT : ")
 
             print(TextColors.GREEN + "[+] COPY THIS : "+ TextColors.ESET)
 
@@ -60,7 +60,7 @@ def hoaxshell():
 
         if select == "2" or select == "2":
             LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE PORT: ")
+            PORT = input("[+] ENTER THE LPORT : ")
 
             print(TextColors.GREEN + "[+] COPY THIS"+ TextColors.ESET)
 
@@ -73,7 +73,7 @@ def hoaxshell():
                 
         if select == "4" or select == "3":
             LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE PORT: ")
+            PORT = input("[+] ENTER THE LPORT : ")
 
             print(TextColors.GREEN + "[+] COPY THIS : "+ TextColors.ESET)
 
