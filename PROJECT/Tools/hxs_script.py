@@ -73,7 +73,7 @@ def hoaxshell():
                 
         if select == "4" or select == "3":
             LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE PORT: ")
+            PORT = input("[+] ENTER THE PORT : ")
 
             print(TextColors.GREEN + "[+] COPY THIS : "+ TextColors.ESET)
 
