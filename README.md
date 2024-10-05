@@ -1,9 +1,14 @@
 # 💀 AKIRA TOOLS 💀
+
+![image](https://github.com/user-attachments/assets/c4a23fdc-085d-4c0c-984a-a7fa053aa919)
+
+# USE
+
 "https://www.revshells.com/"
 
- https://madpayload.tistory.com/33
- 
-![image](https://github.com/user-attachments/assets/c4a23fdc-085d-4c0c-984a-a7fa053aa919)
+# TISTORY
+
+"https://madpayload.tistory.com/33"
 
 # 🔥 AKIRA MENU 🔥
 1. NMAP
