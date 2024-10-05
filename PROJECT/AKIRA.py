@@ -46,7 +46,7 @@ def logo():
           
 [1] NMAP
 [2] MSFVENOM
-[3] WINDOWS
+[3] HoaxShell
 [4] EXIT  
               
     """ + TextColors.RESET)
