@@ -45,8 +45,8 @@ def hoaxshell():
         select = input(TextColors.CRIMSON + "AKIRA > " + TextColors.ESET)
 
         if select == "1" or select == "1":
-            LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE LPORT : ")
+            LHOST = input(TextColors.CRIMSON + "ENTER THE LHOST : " + TextColors.ESET)
+            PORT = input(TextColors.CRIMSON + "[+] ENTER THE LPORT : "+ TextColors.ESET)
 
             print(TextColors.GREEN + "[+] COPY THIS : "+ TextColors.ESET)
 
@@ -59,8 +59,8 @@ def hoaxshell():
             os.system(command)
 
         if select == "2" or select == "2":
-            LHOST = input("ENTER THE LHOST : ")
-            PORT = input("[+] ENTER THE LPORT : ")
+            LHOST = input(TextColors.CRIMSON + "ENTER THE LHOST : "+ TextColors.ESET)
+            PORT = input(TextColors.CRIMSON + "[+] ENTER THE LPORT : "+ TextColors.ESET)
 
             print(TextColors.GREEN + "[+] COPY THIS"+ TextColors.ESET)
 
@@ -72,7 +72,7 @@ def hoaxshell():
             os.system(command)
                 
         if select == "4" or select == "3":
-            LHOST = input("ENTER THE LHOST : ")
+            LHOST = input(TextColors.CRIMSON + "ENTER THE LHOST : "+ TextColors.ESET)
             PORT = input("[+] ENTER THE LPORT : ")
 
             print(TextColors.GREEN + "[+] COPY THIS : "+ TextColors.ESET)
