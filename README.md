@@ -11,7 +11,6 @@
 ![image](https://github.com/user-attachments/assets/d45a61da-04c4-43ea-be27-21c71d3c6bbd)
 
 # 🔥 HOW TO USE? 🔥
-![image](https://github.com/user-attachments/assets/62ff8ff7-1f8a-460c-8493-50b2a72bd6a8)
 ```
 git clone https://github.com/madanokr001/AKIRA-Framework.git
 cd AKIRA-Framework
