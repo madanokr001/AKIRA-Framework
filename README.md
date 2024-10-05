@@ -22,9 +22,4 @@ ls
 cd PROJECT
 ls
 python AKIRA.py
-
-
-
-
-
-
+```
