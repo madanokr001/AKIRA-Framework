@@ -35,7 +35,7 @@ def hoaxshell():
 -- :) --
 
 [1] WINDOWS CMD
-[2] POWERSHELL (NEED ENCODE)
+[2] POWERSHELL
 [3] POWERSHELL IEX
           
           """)
