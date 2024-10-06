@@ -5,7 +5,11 @@ This framework is a compact backdoor create toolkit designed to efficiently exec
 ![image](https://github.com/user-attachments/assets/cc022455-6180-444f-8996-d9eb087a764a)
 
 # AKIRA OPTION
-"1"
+
+1. ![image](https://github.com/user-attachments/assets/ce5cbc5a-aef8-45f3-8b8e-1d14c5db62f2)
+
+3. 1
+4. 3
 
 
 # HOW TO USE?
