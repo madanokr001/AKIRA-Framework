@@ -6,13 +6,13 @@ This framework is a compact backdoor create toolkit designed to efficiently exec
 
 # AKIRA OPTION
 
-[1] NMAP
+# [1] NMAP
 ![image](https://github.com/user-attachments/assets/35ece059-7a2f-466c-95bb-56610acc0e5d)
 
-[2] MSFVENOM
+# [2] MSFVENOM
 ![image](https://github.com/user-attachments/assets/ce5cbc5a-aef8-45f3-8b8e-1d14c5db62f2)
 
-[3] HoaxShell
+# [3] HoaxShell
 ![image](https://github.com/user-attachments/assets/1b459f87-fa72-489f-99b9-1465429fe7f8)
 
 # HOW TO USE?
