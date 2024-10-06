@@ -7,10 +7,20 @@ This framework is a compact hacking toolkit designed to efficiently execute spec
 # 🔥 HOW TO USE? 🔥
 ```
 git clone https://github.com/madanokr001/AKIRA-Framework.git
+```
+```
 cd AKIRA-Framework
+```
+```
 ls
+```
+```
 cd PROJECT
+```
+```
 ls
+```
+```
 python AKIRA.py
 ```
 
