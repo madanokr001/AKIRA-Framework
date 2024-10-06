@@ -4,16 +4,6 @@ This framework is a compact hacking toolkit designed to efficiently execute spec
 # AKIRA screenshot:
 ![image](https://github.com/user-attachments/assets/4e448b7c-95fa-4a12-9c47-cd24653d8932)
 
-# OPTION
-
-[1] NMAP 
-
-[2] MSFVENOM
-
-[3] Hoaxshell
-
-[4] EXIT
-
 # 🔥 HOW TO USE? 🔥
 ```
 git clone https://github.com/madanokr001/AKIRA-Framework.git
