@@ -1,5 +1,5 @@
 # WHAT IS AKIRA-Framework
-This framework is a compact hacking toolkit designed to efficiently execute specific tasks. By leveraging msfvenom and hoaxshell, it facilitates the creation of a backdoor. This toolkit was developed with insights and guidance sourced from https://www.revshells.com Dive in and explore the potential of this powerful tool!
+This framework is a compact backdoor create toolkit designed to efficiently execute specific tasks. By leveraging msfvenom and hoaxshell, it facilitates the creation of a backdoor. This toolkit was developed with insights and guidance sourced from https://www.revshells.com Dive in and explore the potential of this powerful tool!
 
 # AKIRA screenshot:
 ![image](https://github.com/user-attachments/assets/4e448b7c-95fa-4a12-9c47-cd24653d8932)
