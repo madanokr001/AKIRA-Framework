@@ -7,8 +7,11 @@ This framework is a compact hacking toolkit designed to efficiently execute spec
 # OPTION
 
 [1] NMAP 
+
 [2] MSFVENOM
+
 [3] Hoaxshell
+
 [4] EXIT
 
 # 🔥 HOW TO USE? 🔥
