@@ -42,7 +42,7 @@ def logo():
 -- BACKDOOR CREATER --
 -- github : github.com/madanokr001 --
 -- Version 1.0 --
--- use www.revshells.com -- 
+-- www.revshells.com -- 
           
 [1] NMAP
 [2] MSFVENOM
