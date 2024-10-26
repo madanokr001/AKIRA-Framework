@@ -1,6 +1,10 @@
 # WHAT IS AKIRA-Framework
 This framework is a compact backdoor create toolkit designed to efficiently execute specific tasks. By leveraging msfvenom and hoaxshell, it facilitates the creation of a backdoor. This toolkit was developed with insights and guidance sourced from https://www.revshells.com and explore the potential of this powerful tool!
 
+# Screenshot:
+![image](https://github.com/user-attachments/assets/c8297ff5-2fd5-4ece-809b-63df3ea4d35f)
+
+
 # OPTION
 
 - **NMAP**: Nmap is a network port scanner that discovers hosts and services on a network by sending packets and analyzing responses.
