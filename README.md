@@ -31,3 +31,6 @@ ls
 python AKIRA.py
 ```
 
+# Skill
+**Python**
+
